@@ -1,5 +1,8 @@
 # youtube-localization
 
+[![Made with Claude Code](https://img.shields.io/badge/Made%20with-Claude%20Code-D97757)](https://claude.com/claude-code)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+
 **Upload a video, say one sentence, get titles and descriptions in 90 locales.**
 
 A working setup for localizing YouTube video metadata across a fleet of channels, built
@@ -151,6 +154,13 @@ units, which puts the ceiling near 196 videos per day for the whole project.
 - Channel configs, push history and credentials.
 
 The documentation and script messages are in Russian, as written and used.
+
+## Made with Claude
+
+This project was built in pair with [Claude Code](https://claude.com/claude-code).
+Claude wrote `localize.py`, ran the API experiments recorded in `CLAUDE.md`, maintains the
+glossary, and produces every translation. The channel owner sets the rules, reviews the
+results, and approves each write to a live channel.
 
 ## License
 

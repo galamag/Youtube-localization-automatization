@@ -1,5 +1,8 @@
 # youtube-localization
 
+[![Made with Claude Code](https://img.shields.io/badge/Made%20with-Claude%20Code-D97757)](https://claude.com/claude-code)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+
 **Залил видео, сказал одну фразу — названия и описания готовы на 90 локалях.**
 
 Рабочая система локализации метаданных YouTube для парка каналов, собранная и
@@ -150,6 +153,13 @@ python localize.py push --channel <alias> --file work/<дата>/translated.json
   которые собирают 90 локалей из общего товарного каталога. `languages-90.md` ссылается
   на них в `work/`; они привязаны к конкретным каналам и остаются приватными.
 - Конфигов каналов, истории заливок и ключей доступа.
+
+## Сделано с Claude
+
+Проект собран в паре с [Claude Code](https://claude.com/claude-code). Claude написал
+`localize.py`, провёл эксперименты с API, записанные в `CLAUDE.md`, ведёт глоссарий и
+делает все переводы. Владелец каналов задаёт правила, проверяет результат и подтверждает
+каждую запись в живой канал.
 
 ## Лицензия
 
