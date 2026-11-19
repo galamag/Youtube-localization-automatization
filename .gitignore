@@ -1,0 +1,17 @@
+# Secrets: must never reach history
+client_secret.json
+**/token.json
+
+# Real channels stay private; only the template is published
+channels/*
+!channels/_example/
+
+# Working and service files
+work/
+quota.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+.claude/
+.remember/

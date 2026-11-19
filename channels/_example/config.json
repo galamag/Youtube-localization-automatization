@@ -1,0 +1,5 @@
+{
+  "alias": "example",
+  "default_language": "en",
+  "target_languages": ["de", "es", "pt", "ru", "ja", "fr", "it", "tr", "ko"]
+}
