@@ -151,3 +151,7 @@ units, which puts the ceiling near 196 videos per day for the whole project.
 - Channel configs, push history and credentials.
 
 The documentation and script messages are in Russian, as written and used.
+
+## License
+
+[MIT](LICENSE)
